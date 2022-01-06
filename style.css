@@ -1,0 +1,272 @@
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background-color: rgb(206, 206, 226);
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+    width: 80%;
+    margin:auto;
+}
+
+
+.line{
+    display: flex;
+    width: 100%;
+    margin: auto;    
+}
+
+
+
+/* --- navbar start---- */
+.navbar{
+    width:100%;
+    height: 10vh;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+
+.navbar ul li a{
+    text-decoration: none;
+    color:rgb(82, 82, 228);
+    font-size: 16px;
+    font-weight:800;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:8px 10px;
+    border-radius: 5px;
+}
+
+.navbar ul li a:hover{
+    background-color: black;
+    color:white;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+
+.navbar-fixed{
+    overflow: hidden;
+    position: fixed;
+    width: 80%;
+}
+
+.main {
+    padding-top: 120px;
+    margin-bottom: 8%;
+}
+/* --- navbar end---- */
+
+
+
+
+/* stay focused start */
+.half-width{
+    width:50%;
+    padding:20px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.padding-left{
+    padding-left: 2%;
+}
+
+p{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.half-1{
+    margin-top: 6%;
+}
+    
+.img-focused{
+    border-radius: 50%;
+    width: 70%; 
+}
+
+span{
+    color:rgb(82, 82, 228);
+    font-weight: 700;
+}
+
+.link-button{
+    padding:8px 20px;
+    background-color: rgb(82, 82, 228);
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+}
+
+#focused-line{
+    border-left: 6px solid;
+    border-image: linear-gradient(rgb(45, 63, 230), rgb(206, 18, 74));
+    border-image-slice: 1;
+}
+/* stay focused end */
+
+
+
+
+
+/* my mission start */
+.text{
+    text-align: center;
+    margin-top: 8%;
+}
+
+img{
+ width: 20%;
+}
+
+.mission{
+    border-radius: 10%;
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+}
+
+#mission{
+  background-color: rgb(208, 221, 236);
+}
+
+#vission{
+  background-color: rgb(228, 221, 179);
+}
+
+#goal{
+  background-color: rgb(225, 179, 230);
+}
+/* My mission end */
+
+
+
+/* develop start */
+.develop-image{
+    border-radius: 10%;
+    width: 80%;
+}
+
+.develop-shape{
+    background-image: url(./images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 21%;
+    margin-left:10%
+}
+/* develop end */
+
+
+
+/* team start */
+.team-image{
+    border-radius: 50%;
+    width: 50%;
+    border: rgb(82, 82, 228) solid 4px;
+}
+
+.team-border {
+   background-color: rgb(166, 170, 212);
+   border: rgb(82, 82, 228) solid 8px;
+   border-radius: 2%;
+   margin: 15px;
+   padding: 20px;
+   width: 100%;
+}
+
+h6{
+    line-height: 0px;
+}
+
+h3{
+    font-weight: 800;
+}
+/* team end */
+
+
+
+/* global community start */
+.global-shape{
+    background-image: url(./images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 21%;
+}
+ /* global community end */
+
+
+
+
+ /* contact start */
+.contact-padding{
+    padding-right: 50px;
+ }
+ 
+input, textarea{
+    padding: 10px;
+    width: 80%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+button{
+    padding: 6px 30px;
+    background-color: rgb(82, 82, 228);
+    margin-top: 10px;
+    color: black;
+    font-weight:800;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: black;
+    color:white;
+}
+
+.map{
+    background-image: url(./images/mapd.jpg);
+    width: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+ /* contact end */
+
+
+
+
+/* footer start */
+.footer-color{
+    background-color: black;
+    padding: 4% 0%;
+    color: white;
+}
+/* footer end */
+
